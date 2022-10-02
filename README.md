@@ -18,7 +18,7 @@ _Organize ideas and collaborate using Markdown, a lightweight language for text 
   Do not use quotes on the <details> tag attributes.
 -->
 
-<!--step0
+<!--step0-->
 
 GitHub is about more than code. It’s a platform for software collaboration, and Markdown is one of the most important ways developers can make their communication clear and organized in issues and pull requests. This course will walk you through creating and using headings more effectively, organizing thoughts in bulleted lists, and showing how much work you’ve completed with checklists. You can even use Markdown to add some depth to your work with the help of emoji, images, and links.
 
@@ -38,7 +38,7 @@ GitHub is about more than code. It’s a platform for software collaboration, an
    ![Create a new repository](https://user-images.githubusercontent.com/1221423/169618722-406dc508-add4-4074-83f0-c7a7ad87f6f3.png)
 3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
 
-endstep0-->
+<!--endstep0-->
 
 <!--
   <<< Author notes: Step 1 >>>
@@ -48,7 +48,7 @@ endstep0-->
   Encourage users to open new tabs for steps!
 -->
 
-<details id=1 open>
+<details id=1>
 <summary><h2>Step 1: Add headers</h2></summary>
 
 _Welcome to "Communicate using Markdown"! :wave:_
@@ -62,8 +62,7 @@ _Welcome to "Communicate using Markdown"! :wave:_
 **What is a _header_?** A header is a larger bit of text at the beginning of a section. There are six sizes.
 
 ### Example
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-  
+
 ```txt
 # This is an <h1> header, which is the largest
 ## This is an <h2> header
@@ -153,11 +152,6 @@ $ git init
 Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
 ```
 
-```
-$ git init -2
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
-```
-
 ### :keyboard: Activity: Adding a code example
 
 1. As you did before, edit the file in this pull request.
@@ -195,12 +189,6 @@ _Great job adding a code example to the file :partying_face:_
 - [x] This item is complete
 - [ ] This item is not complete
 
-  
-## Abel's List
-- [x] List syntax is required -2
-- [x] This item is complete -2
-- [ ] This item is not complete -2
-  
 ### :keyboard: Activity: Add a task list
 
 GitHub Actions went ahead and made a branch and a pull request for you. So you'll need to add to the file we've created in the branch, and we will check your work as you work through this course!
