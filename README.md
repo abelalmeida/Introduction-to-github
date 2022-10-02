@@ -153,6 +153,11 @@ $ git init
 Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
 ```
 
+```
+$ git init -2
+Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
+```
+
 ### :keyboard: Activity: Adding a code example
 
 1. As you did before, edit the file in this pull request.
